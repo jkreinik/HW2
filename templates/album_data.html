@@ -1,0 +1,7 @@
+{% block content %}
+<form method="GET" action="http://localhost:5000/album_result">
+  The ablum title you just submitted was: <strong>{{ album_name }}</strong>
+  <br><br>
+  On a scale of 1 to 3, you would give it <b>{{ radio }}</b> stars!
+</form>
+{% endblock %}
